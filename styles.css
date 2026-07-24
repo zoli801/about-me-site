@@ -1328,11 +1328,19 @@ svg {
   border-top: 1px solid rgba(255, 255, 255, 0.08);
 }
 
-.footer-button:first-child {
+.portfolio-download {
+  margin-right: auto;
+  border-color: rgba(168, 85, 247, 0.56);
+  background:
+    linear-gradient(135deg, rgba(168, 85, 247, 0.2), rgba(34, 211, 238, 0.12)),
+    rgba(255, 255, 255, 0.08);
+}
+
+.contact-button {
   border-color: rgba(34, 211, 238, 0.38);
 }
 
-.footer-button:last-child {
+.back-to-top {
   border-color: rgba(182, 255, 53, 0.5);
   color: var(--lime);
 }
@@ -1532,6 +1540,11 @@ svg {
     min-height: 150px;
     justify-content: flex-start;
     flex-wrap: wrap;
+  }
+
+  .portfolio-download {
+    width: 100%;
+    margin-right: 0;
   }
 }
 
